@@ -1,4 +1,12 @@
 
+*{
+  margin: 0px;
+  padding: 00px;
+  font-family:Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 html, body {
   overflow-x: hidden;
   height: 100%;
@@ -15,8 +23,7 @@ body {
   width: 100%;
   max-width: 100%;
   box-shadow: none;
-  background-color: #f08ba0;   /* #FC466B */
-  text-align:center;
+  background-color: #FC466B;
   position: fixed;
   height: 60px!important;
   overflow: hidden;
@@ -49,7 +56,7 @@ body {
   margin-top: 60px;
   transform: translateX(-250px);
   transition: transform 250ms ease-in-out;
-  background: linear-gradient(180deg, #f08ba0 0%, #3F5EFB 100%);
+  background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
 }
 .sidebarMenuInner{
   margin:0;
@@ -145,17 +152,3 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   margin-top: -9px;
 }
 
-
-
-
-.logo {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 100%;
-  text-align:center;
-  position: fixed;
-  height: 60px!important;
-  overflow: hidden;
-  z-index: 10;
-}
