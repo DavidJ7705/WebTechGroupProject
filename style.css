@@ -1,6 +1,4 @@
 
-
-
 *{
   margin: 0px;
   padding: 00px;
@@ -8,7 +6,6 @@
   box-sizing: border-box;
   box-sizing: border-box;
 }
-
 
 html, body {
   overflow-x: hidden;
@@ -154,3 +151,4 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   transform: rotate(-135deg);
   margin-top: -9px;
 }
+
