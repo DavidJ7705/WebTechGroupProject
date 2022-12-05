@@ -1,14 +1,19 @@
-
+*{
+  margin: 0px;
+  padding: 00px;
+  font-family:Verdana,Tahoma, sans-serif;
+}
 
 html, body {
   overflow-x: hidden;
   height: 100%;
 }
 body {
-  background: #fff;
   padding: 0;
   margin: 0;
-  font-family: 'Varela Round', sans-serif;
+  font-family:Verdana,Tahoma, sans-serif;
+  /*font-family: 'Varela Round', sans-serif;*/
+  background:  #ffffff 100%;
 }
 .header {
   display: block;
@@ -50,7 +55,7 @@ body {
   margin-top: 60px;
   transform: translateX(-250px);
   transition: transform 250ms ease-in-out;
-  background: linear-gradient(180deg, #f08ba0 0%, #3F5EFB 100%);
+  background: linear-gradient(186deg, #f08ba0 10%, #3F5EFB 90%);
 }
 .sidebarMenuInner{
   margin:0;
@@ -159,4 +164,20 @@ input[type=checkbox]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   height: 60px!important;
   overflow: hidden;
   z-index: 10;
+}
+
+h2{
+  vertical-align: middle;
+  font-size: 30px;
+  letter-spacing: 1.20px;
+
+}
+
+
+.LandOverview div{
+  vertical-align: middle;
+  font-size: 30px;
+  color:rgb(30, 28, 28);
+  letter-spacing: 1.20px;
+  
 }
