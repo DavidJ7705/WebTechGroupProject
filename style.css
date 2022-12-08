@@ -177,6 +177,7 @@ h2{
 .LandOverview img{
   vertical-align: middle;
   color:rgb(30, 28, 28);
+  margin-right: 20px;
   border: 10px solid rgb(255, 255, 255);
 }
 
@@ -187,37 +188,82 @@ h2{
   clear:both;
 }
 
-
+#intro{
+  width:60%;
+  font-family:Verdana,Tahoma, sans-serif;
+  min-height:300px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-left: 300px;
+  margin-right: 20px;
+  border-right: 10px whitesmoke;
+  background-color: rgb(226, 232, 236);
+  float:center;
+  border-radius: 10px;
+}
 
 #main{
   width:100%;
-  min-height:400px;
+  min-height:300px;
   background-color: rgb(255, 255, 255);
   margin-bottom: 10px;
   border: 10px solid rgb(255, 255, 255);
 }
 
 #side-div{
-  width:30%;
+  width:20%;
   padding-left: 10px;
-  min-height:400px;
-  font-size: 15px;
-  line-height: 48px;
+  min-height:300px;
+  font-size: 13px;
+  line-height: 50px;
   text-align:left;
-  background-color: rgb(211, 211, 211);
+  background-color: #33475b;
+  border-radius: 10px;
+  color: white;
+  font-family: Avenir;
   float:left;
 }
 
-#body-div{
+#body-div img{
   width:65%;
-  min-height:400px;
-  line-height: 400px;
-  margin-right: 10px;
+  min-height:300px;
+  margin-right: 20px;
   border-right: 10px whitesmoke;
   background-color: rgb(157, 199, 224);
   float:right;
+  border-radius: 10px;
 }
 
-h6 {
-  white-space: nowrap;
+#main2{
+  width:100%;
+  min-height:300px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 10px;
+  border: 10px solid rgb(255, 255, 255);
+}
+
+#side-div2{
+  width:20%;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-right: 20px;
+  min-height:300px;
+  font-size: 13px;
+  line-height: 50px;
+  text-align:left;
+  background-color: #33475b;
+  border-radius: 10px;
+  color: white;
+  font-family: Avenir;
+  float:right;
+}
+
+#body-div2 img{
+  width:65%;
+  min-height:300px;
+  margin-right: 10px;
+  border-right: 10px whitesmoke;
+  background-color: rgb(157, 199, 224);
+  float:left;
+  border-radius: 10px;
 }
